@@ -13,7 +13,7 @@ export default class StudentList extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost:4000/students/")
+      .get("http://localhost:3000/students/")
       .then((res) => {
         this.setState({
           students: res.data,
@@ -25,7 +25,7 @@ export default class StudentList extends Component {
   }
 
   DataTable() {
-    return this.state.students.map((res, i) => {
+    return this.state.students.map((i, res) => {
       return <StudentTableRow obj={res} key={i} />;
     });
   }
@@ -34,14 +34,14 @@ export default class StudentList extends Component {
     return (
       <div className="table-wrapper">
         <Table striped bordered hover>
-          <thread>
+          <thead>
             <tr>
               <th>Name</th>
               <th>Email</th>
               <th>Roll No</th>
               <th>Action</th>
             </tr>
-          </thread>
+          </thead>
           <tbody>{this.DataTable()}</tbody>
         </Table>
       </div>

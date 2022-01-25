@@ -66,7 +66,7 @@ export default class EditStudent extends Component {
         studentObject
       )
       .then((res) => {
-        console.log(res, data);
+        console.log(res.data);
         console.log("Student Successfully Updated!");
       })
       .catch((error) => {

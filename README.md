@@ -1,5 +1,3 @@
-Everyone needs food to survive and this app will help you find fresh, new recipes. Impress your family, date, or even your pet with this must-have app!</p>
-
 ## Description
 
 Following tutorial for play building a REACT app.

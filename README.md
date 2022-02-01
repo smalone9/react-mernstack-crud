@@ -5,11 +5,7 @@ Following tutorial for play building a REACT app.
 ## Table of Contents
 
 - [Built With](#built-with)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Acknowledgements](#acknowledgements)
-- [Questions](#questions)
 - [Authors](#authors)
 
 ### Built-With
